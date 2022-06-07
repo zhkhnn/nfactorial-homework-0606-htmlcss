@@ -1,0 +1,158 @@
+body {
+    margin: 20px 40px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+
+.wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+
+.redExample {
+    flex: 1;
+    background-color: red;
+}
+
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+
+.blueExample {
+    flex: 1;
+    background-color: blue;
+}
+
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+
+.emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.blueExample2 {
+    width: 80px;
+    background-color: blue;
+}
+
+
+/* TODO: Add CSS for the rest of your solution below */
+
+.redExample2 {
+    background-color: red;
+    width: 10%;
+}
+
+.emptyExample3 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.blueExample3 {
+    background-color: blue;
+    width: 10%;
+}
+
+.redExample3 {
+    background-color: red;
+    width: 95%;
+}
+
+.blueExample4 {
+    background-color: blue;
+    width: 5%;
+}
+
+.redExample4 {
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    transform: translateY(20%);
+}
+
+.redExample5 {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    flex: 2;
+}
+
+.blueExample5 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    width: 5%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.redExample6 {
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 5%;
+}
+
+.blueExample6 {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    z-index: 0;
+}
+
+.emptyExample7 {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.emptyExample6 {
+    background-color: green;
+    display: flex;
+    z-index: 2;
+    flex: 1;
+    height: 40%;
+    align-self: center;
+    justify-content: center;
+}
+
+.yellowExample {
+    background-color: yellow;
+    width: 80px;
+}
+
+.yellowExample2 {
+    background-color: green;
+    width: 40px;
+}
+
+.emptyExample8 {
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+}
